@@ -1,0 +1,61 @@
+#contenu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 45vw;
+    width: 93vw;
+
+}
+.tout{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 45vw;
+    width: 93vw;
+}
+
+.affichage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 40vw;
+    width: 70vw;
+}
+
+.ecran{
+    background-color: green;
+    height: 30vw;
+    width: 60vw;
+}
+
+.refresh{
+    height: 2vw;
+    width: 4vw;
+}
+
+img{
+    height: 16px;
+}
+
+.message{
+    margin-bottom: 9vw;
+    justify-content: space-evenly;
+    width: 60vw;
+    height: 3vw;
+}
+
+.baby{
+    height: 2vw;
+    font-size: 1vw;
+}
+
+.entrer{
+    height: 2vw;
+    width: 40vw;
+}
+
+.envoyé{
+    height: 2vw;
+    width: 5vw;
+    margin-top: 2vw;
+}
