@@ -1,25 +1,30 @@
-// Une fonction document ready qui est executé au lancement de la page
-    // On execute une fonction pour afficher les message en base
+
+
+
+
+    // On execute une fonction pour afficher les messages en base
 
 $(".envoyer").click(function () {
-    // Un tableau de pseudo
     
+var msg = $(".ecran").val();
+var psd = $(".ecran").val();
+$(document).ready(function() {
+console.log("Welcome to CryEngine Ent")
+    // Un tableau de pseudo
     // Récuperer un pseudo aléatoirement dans le tableau
-
+});
     $.ajax({
-        url: "localhost/addMessage.php",
+        url: "addMessage.php",
         type: 'POST',
         data: {
-            pseudo: "Enes", // Pseudo aléatoire
-            message: "Coucou je suis Enes!" // Message de l'input 
+            pseudo: psd ,// Pseudo aléatoire
+            message: msg // Message de l'input 
         },
-        success: function(){
-
-        }
+        success: alert("Vous avez réussi")
     });
 });
 
 function refreshMessages () {
-    // Je fait une requete ajax pour getLes messages
+    // Je fait une requete ajax pour get Les messages
     //On append les messages récuperer grace a jquery dans la div "contenu"
 }

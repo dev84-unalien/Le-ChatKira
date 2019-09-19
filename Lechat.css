@@ -23,14 +23,21 @@
 }
 
 .ecran{
-    background-color: green;
+    background-color: black;
     height: 30vw;
     width: 60vw;
+    color: white
 }
 
 .refresh{
     height: 2vw;
     width: 4vw;
+}
+
+#ric{
+    width: 60vw;
+    height: 65vh;
+    opacity: 0.3;
 }
 
 img{
@@ -58,4 +65,8 @@ img{
     height: 2vw;
     width: 5vw;
     margin-top: 2vw;
+}
+
+.baby{
+    
 }
